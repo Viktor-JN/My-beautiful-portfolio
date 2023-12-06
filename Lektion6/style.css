@@ -75,7 +75,7 @@ section .content:nth-child(even){
 }
 
 .html li :hover{
-    background-color: linear-gradient(45deg, rgb(255, 0, 149), rgb(124, 1, 124);
+    background-color: linear-gradient(45deg, rgb(255, 0, 149), rgb(124, 1, 124));
 }
 
 .css{
