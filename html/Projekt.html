@@ -9,34 +9,89 @@
         <nav class="topheader">
             <h1>Viktors Portfolio</h1>
             <div class="topnav">
-                <a href="/html/index.html">Hem</a>
-                <a href="/html/Projekt.html">Projekt</a>
+                <a href="/html/Projekt.html">Portfolio</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Projekt</button>
+                    <div class="dropdown-content">
+                      <a href="/Lektion1/index.html" target="_new">Lektion1</a>
+                      <a href="/lektion2/index.html" target="_new">Lektion2</a>
+                      <a href="/lektion3/index.html" target="_new">Lektion3</a>
+                      <a href="/Lektion4/index.html" target="_new">Lektion4</a>
+                      <a href="/Lektion5/index.html" target="_new">Lektion5.1</a>
+                      <a href="/sticky2/index.html" target="_new">Lektion5.2</a>
+                      <a href="/Lektion6/index.html" target="_new">Lektion6</a>
+                    </div>
+                </div>                  
                 <a href="/html/OmMig.html">Om mig</a>
             </div>
         </nav>
     </header>
     <main>
         <section>
-            <ol>
-                <h3 class="#1">Lektion 1</h3>
-                <h3>Lektion 2</h3>
-                <h3>Lektion 3</h3>
-                <h3>Lektion 4</h3>
-                <h3>Lektion 5</h3>
-                <h3>Lektion 6</h3>
+            <ol class="content">
+                <div class="project" id="1">
+                    <h3>Lektion 1</h3>
+                    <a href="/Lektion1/index.html" target="_new"><img src="/images/lektion1.png" alt="lektion 1"></a>
+                    <div class="description">
+                        <p>På första lektionen lärde vi oss grunderna för HTML och CSS.</p>
+                    </div>
+                </div>
+                <div class="project" id="2">
+                    <h3 class="2">Lektion 2</h3>
+                    <a href="/Lektion2/index.html" target="_new"><img src="/images/lektion2.png" alt="lektion 2"></a>
+                    <div class="description">
+                        <p>Vi lärde oss lägga in bilder i våra projekt och skapa div.</p>
+                    </div>
+                </div>
+                <div class="project" id="3">
+                    <h3>Lektion 3</h3>
+                    <a href="/Lektion3/index.html" target="_new"><img src="/images/lektion3.png" alt="lektion 3"></a>
+                    <div class="description">
+                        <p>Vi gick igenom div i i lite mer detalj och började lära oss om flex och grid.</p>
+                    </div>
+                </div>
+                <div class="project" id="4">
+                    <h3>Lektion 4</h3>
+                    <a href="/Lektion4/index.html" target="_new"><img src="/images/lektion5.png" alt="lektion 4"></a>
+                    <div class="description">
+                        <p>Vi lärde oss att skapa lätta animationer i CSS</p>
+                    </div>
+                </div>
+                <div class="project" id="5.1">
+                    <h3>Lektion 5.1</h3>
+                    <a href="/Lektion5/index.html" target="_new"><img src="/images/lektion4.png" alt="lektion 5"></a>
+                    <div class="description">
+                        <p>Vi skulle härma ett projekt som vi fick av våra kära lärare Johan!</p>
+                    </div>
+                </div>
+                <div class="project" id="5.2">
+                    <h3>Lektion 5.2</h3>
+                    <a href="/sticky2/index.html" target="_new"><img src="/images/sticky2.png" alt="stciky 2"></a>
+                    <div class="description">
+                        <p>Här skulle också härma ett projekt vi fick av våra kära lärare Johan!</p>
+                    </div>
+                </div>
+                <div class="project" id="6">
+                    <h3>Lektion 6</h3>
+                    <a href="/Lektion6/index.html" target="_new"><img src="/images/lektion6.png" alt="lektion 6"></a>
+                    <div class="description">
+                        <p>Här skulle också härma ett lite mer avancerat projekt vi fick av våra kära lärare Johan!</p>
+                    </div>
+                </div>
             </ol>
         </section>
         <aside>
             <div class="list">
                 <h3 class="list-header">Innehåll</h3>
                 <ol class="categories">
-                        <li class="projekt"><p>HTML</p>
+                        <li class="assignments"><p>HTML</p>
                         <ol>
                             <li><a href="#1">Lektion 1</a></li>
                             <li><a href="#2">Lektion 2</a></li>
                             <li><a href="#3">Lektion 3</a></li>
                             <li><a href="#4">Lektion 4</a></li>
-                            <li><a href="#5">Lektion 5</a></li>
+                            <li><a href="#5.1">Lektion 5.1</a></li>
+                            <li><a href="#5.2">Lektion 5.2</a></li>
                             <li><a href="#6">Lektion 6</a></li>
                         </ol> 
                     </li>

@@ -1,0 +1,13 @@
+.body{
+    background-color: black;
+    font-size: 50px;
+}
+
+.division{
+    background-color: blue;
+    color: green;
+    border: 5px outset orange;
+}
+.divison a{
+    color: gold;
+}
